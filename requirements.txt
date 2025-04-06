@@ -1,0 +1,29 @@
+# Data Processing & Storage
+psycopg2-binary>=2.9.3  # PostgreSQL adapter
+pymongo>=4.3.3         # MongoDB driver
+redis>=4.5.1           # Redis client
+apache-airflow>=2.5.0  # Data pipeline orchestration
+
+# AI & Machine Learning
+scikit-learn>=1.0.2    # Machine learning utilities
+tensorflow>=2.9.1      # Deep learning framework
+torch>=1.13.0          # PyTorch
+transformers>=4.26.0   # Hugging Face transformers
+prophet>=1.1.1         # Time series forecasting
+
+# Backend
+fastapi>=0.95.0        # API framework
+uvicorn>=0.21.1        # ASGI server
+websockets>=11.0.3     # WebSocket support
+pydantic>=1.10.7       # Data validation
+
+# Testing & Monitoring
+pytest>=7.3.1          # Testing framework
+locust>=2.15.1         # Load testing
+promptheus-client>=0.17.0  # Metrics collection
+
+# Development Tools
+black>=23.3.0          # Code formatting
+flake8>=6.0.0          # Code linting
+mypy>=1.2.0            # Type checking
+pre-commit>=3.2.2      # Git hooks
